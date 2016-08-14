@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import { mount, shallow} from 'enzyme';
 import PhotoList from '../../../src/components/PhotoList';
@@ -34,3 +35,4 @@ describe('PhotoList container', () => {
       sinon.assert.calledWith(api, null);
     })
 })
+*/
