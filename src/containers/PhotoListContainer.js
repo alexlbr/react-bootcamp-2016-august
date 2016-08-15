@@ -12,6 +12,7 @@ es6promise.polyfill();
 class PhotoListContainer extends Container {
 
   constructor(props) {
+      //super(props) is required since props are used in the parent Container's constructor
       super(props);
       /* In order to remove the render method in the container we need to specify:
         1. What presentational component we want to render by using this.setComponent

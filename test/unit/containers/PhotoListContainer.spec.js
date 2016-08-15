@@ -41,8 +41,7 @@ describe('PhotoList container using DependencyInjector and TestUtils', () => {
 })
 
 describe('PhotoList container using ezyme and mount context', () => {
-    it(`should fetch the photos from the api and
-    pass them down to the child component`, () => {
+    it(`should fetch photos and pass them down to the child component`, () => {
 
       const test = {};
       const FakePhotoList = hookProps(test);
